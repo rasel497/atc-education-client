@@ -1,11 +1,7 @@
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/shared/heading/Header';
+import Home from './components/home/Home';
 
 function App() {
   return (
@@ -13,7 +9,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-
+          <Route path="/" exact component={Home} />
         </Switch>
       </Router >
     </>
