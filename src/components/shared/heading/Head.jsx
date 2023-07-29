@@ -2,22 +2,20 @@ import React from 'react';
 
 const Head = () => {
     return (
-        <div>
-            <section className='head'>
-                <div className='container flexSB'>
-                    <div className="logo">
-                        <h1>ATC EDUCATION</h1>
-                        <span>ONLINE EDUCATION & Managment</span>
-                    </div>
-                    <div className="social">
-                        <i className='fab fa-facebook-f icon'></i>
-                        <i className='fab fa-instagram icon'></i>
-                        <i className='fab fa-twitter icon'></i>
-                        <i className='fab fa-youtube icon'></i>
-                    </div>
+        <section className='head bg-purple-600'>
+            <div className='container flexSB'>
+                <div className="logo">
+                    <h1>ATC EDUCATION</h1>
+                    <span>Research Center For Education's</span>
                 </div>
-            </section>
-        </div>
+                <div className="social">
+                    <a href="https://www.facebook.com/theacteducation" target="_blank" rel="noopener noreferrer"><i className='fab fa-facebook-f icon'></i></a>
+                    <a href="https://www.facebook.com/theacteducation" target="_blank" rel="noopener noreferrer"> <i className='fab fa-linkedin icon'></i></a>
+                    <a href="https://www.facebook.com/theacteducation" target="_blank" rel="noopener noreferrer"><i className='fab fa-twitter icon'></i></a>
+                    <a href="https://www.facebook.com/theacteducation" target="_blank" rel="noopener noreferrer"><i className='fab fa-youtube icon'></i></a>
+                </div>
+            </div>
+        </section>
     );
 };
 

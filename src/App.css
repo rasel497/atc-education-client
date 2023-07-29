@@ -8,8 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f8f8;
-    /* background-color: #9c9696; */
+    background-color: white;
 }
 
 .container {
@@ -35,70 +34,10 @@ body {
 
 .icon:hover {
     cursor: pointer;
-    background-color: aquamarine;
+    background-color: rgb(9, 236, 160);
     color: #fff;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style-type: none;
 }
 
 button {
     border: none;
-}
-
-/* Hero///component bg --section */
-.row {
-    width: 50%;
-}
-
-button {
-    padding: 17px 30px;
-    background-color: #fff;
-    color: rgb(64, 192, 192);
-    font-weight: 600;
-    border: none;
-    margin: 30px 10px 0 0;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
-}
-
-button i {
-    margin-left: 20px;
-}
-
-button:hover {
-    box-shadow: none;
-}
-
-.primary-btn {
-    background-color: #1cc8ba;
-    color: #fff;
-}
-
-#heading {
-    text-align: center;
-    padding: 40px 0;
-}
-
-#heading h3 {
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #1cc8ba;
-    text-transform: uppercase;
-}
-
-#heading h1 {
-    font-size: 45px;
-    margin: 20px 0;
-}
-
-p {
-    line-height: 30px;
-    font-size: 18px;
 }
