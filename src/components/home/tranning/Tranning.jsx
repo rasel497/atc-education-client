@@ -4,7 +4,7 @@ const Tranning = () => {
     return (
         <section className='mt-32 mb-32'>
             <div className='mb-16'>
-                <h2 className='text-3xl text-cyan-400 font-extrabold text-center uppercase'>Our Educators with Learning Team!</h2>
+                <h2 className='text-3xl text-cyan-400 font-extrabold text-center uppercase'>Our Educators Team!</h2>
                 <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus non est quam sint, <br /> velit repellendus distinctio suscipit harum tempora officiis?</p>
             </div>
             <div className='grid justify-items-center gap-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mx-auto mb-5'>

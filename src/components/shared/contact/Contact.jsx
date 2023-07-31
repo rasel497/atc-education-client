@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section id='contactus'>
+        <section id='contact'>
             <div className='mb-32'>
                 <div className="relative">
                     <img
@@ -15,7 +15,7 @@ const Contact = () => {
                             <div className="flex flex-col items-center justify-between xl:flex-row">
                                 <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                                     <h2 className="max-w-lg mb-6 font-sans text-4xl font-semibold tracking-tight text-yellow-400 sm:text-4xl sm:leading-none uppercase">
-                                        Contact Us<br className="hidden md:block uppercase" />
+                                        Join Us<br className="hidden md:block uppercase" />
                                         For Teachers Professional Tranning Services {' '}
                                         <span className="text-teal-accent-400 uppercase">We Provide Our Best Sevices</span>
                                     </h2>
@@ -33,7 +33,7 @@ const Contact = () => {
                                 </div>
                                 <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
                                     <div className="bg-white rounded shadow-2xl p-7 sm:p-10">
-                                        <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">Contact Us</h3>
+                                        <h3 className="mb-4 text-xl font-semibold text-center sm:mb-6 sm:text-2xl">Join Us</h3>
                                         <form>
                                             <div className="mb-1 sm:mb-2">
                                                 <label htmlFor="firstName" className="inline-block mb-1 font-medium">

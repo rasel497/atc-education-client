@@ -26,13 +26,13 @@ const Navbar = () => {
                                     </ul>
                                 </details>
                             </li>
-                            <li><Link to='/tranning'>Professional Traning</Link></li>
+                            <li><Link to='/tranning'>Traning</Link></li>
                             <li><Link to='/research'>Research</Link></li>
                             <li><Link to='/teams'>Team</Link></li>
                             <li><Link to='/about'>About</Link></li>
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost normal-case text-xl text-white">ATC EDUCATION</Link>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl text-white">ACT EDUCATION</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white">
@@ -48,14 +48,14 @@ const Navbar = () => {
                                 </ul>
                             </details>
                         </li>
-                        <li><Link to='/tranning'>Professional Traning</Link></li>
+                        <li><Link to='/tranning'>Traning</Link></li>
                         <li><Link to='/research'>Research</Link></li>
                         <li><Link to='/teams'>Team</Link></li>
                         <li><Link to='/about'>About</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to='/' className="btn bg-purple-500 hover:bg-purple-600 text-white">Join Us</Link>
+                    <a href='#contact'  className="btn bg-purple-500 hover:bg-purple-600 text-white">Join Events</a>
                 </div>
             </div>
         </>

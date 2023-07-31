@@ -12,13 +12,13 @@ const StatCount = () => {
                         <p className='text-white'>We provide cutting-edge international assessments, scientifically designed to inform school <br /> leaders, teachers and students with data that helps to improve learning outcomes.</p>
                     </div>
                     <div className='grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-4 xs:grid-cols-1  '>
-                        <div className="stat place-items-center text-white">
-                            <div className="stat-value">91.5K+</div>
-                            <div className="stat-title font-semibold text-gray-700">Reach</div>
-                        </div>
                         <div className="stat place-items-center">
                             <div className="stat-value text-white">40.2K+</div>
                             <div className="stat-title font-semibold text-gray-700">Training</div>
+                        </div>
+                        <div className="stat place-items-center text-white">
+                            <div className="stat-value">91.5K+</div>
+                            <div className="stat-title font-semibold text-gray-700">Reach</div>
                         </div>
                         <div className="stat place-items-center text-white">
                             <div className="stat-value">10.5K+</div>
