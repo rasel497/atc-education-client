@@ -1,13 +1,13 @@
 import React from 'react';
 
-const FreqQuestion = () => {
+const PreviousEvent = () => {
     return (
         <section className='flex justify-center'>
-            <div className='w-4/5 mt-32 bg-purple-400 p-5 rounded-lg'>
-                <h2 className='text-4xl text-center text-white font-extrabold mb-10'>Frequently Ask Questions?</h2>
+            <div className='w-4/5 mt-32 bg-slate-400 p-5 rounded-lg'>
+                <h2 className='text-4xl text-center text-white font-extrabold mb-10'>Our Previous Events</h2>
                 <div className="card grid lg:grid-cols-2 md:grid-cols-1 card-side bg-base-100 shadow-xl">
                     <div>
-                        <figure><img src="https://innovationatwork.ieee.org/wp-content/uploads/2019/03/bigstock-204807592-1024x683.jpg" alt="Movie" /></figure>
+                        <figure><img src="https://img.freepik.com/free-photo/business-advisor-giving-his-opinion_1098-671.jpg?w=996&t=st=1690878307~exp=1690878907~hmac=70be232d4a8eab46cda3a5d1e62b576b1ad20ff8963b2c9b9205efcff418e314" alt="Movie" /></figure>
                     </div>
                     <div className="m-4">
                         <div className="collapse collapse-plus bg-base-200 mb-2">
@@ -62,4 +62,4 @@ const FreqQuestion = () => {
     );
 };
 
-export default FreqQuestion;
+export default PreviousEvent;

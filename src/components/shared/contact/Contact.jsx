@@ -33,7 +33,7 @@ const Contact = () => {
                                 </div>
                                 <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
                                     <div className="bg-white rounded shadow-2xl p-7 sm:p-10">
-                                        <h3 className="mb-4 text-xl font-semibold text-center sm:mb-6 sm:text-2xl">Join Us</h3>
+                                        <h3 className="mb-4 text-lg font-semibold text-center sm:mb-6 sm:text-md uppercase">Register New Event</h3>
                                         <form>
                                             <div className="mb-1 sm:mb-2">
                                                 <label htmlFor="firstName" className="inline-block mb-1 font-medium">
@@ -73,7 +73,7 @@ const Contact = () => {
                                                 </textarea>
                                             </div>
                                             <div className="mt-4 mb-2 sm:mb-4">
-                                                <button type="submit" className="inline-flex items-center justify-center w-full h-12 px-6 font-medium bg-purple-500 text-white">
+                                                <button type="submit" className="inline-flex items-center justify-center w-full h-12 px-6 font-medium text-white bg-purple-700 hover:bg-purple-600">
                                                     Send Message
                                                 </button>
                                             </div>

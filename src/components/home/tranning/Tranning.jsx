@@ -11,11 +11,11 @@ const Tranning = () => {
                 <div className="card card-compact w-80 bg-base-60 shadow-2xl">
                     <div className="avatar justify-center mt-4">
                         <div className="w-40 mask mask-hexagon">
-                            <img src="https://static.theceomagazine.net/wp-content/uploads/2019/12/19141714/barack-obama.jpg" alt="" />
+                            <img src="https://img.freepik.com/free-photo/businessman-black-suit-holding-his-tasklist-makes-thumb-up_114579-15902.jpg?w=996&t=st=1690877405~exp=1690878005~hmac=03f8c5c0200ae26640c782bc0b7bcc9cbfa3e082eec8350f1b76cd3fe5dc65c8" alt="" />
                         </div>
                     </div>
                     <div className="card-body">
-                        <h2 className="card-title">Mr. Barak Obama</h2>
+                        <h2 className="card-title">Mr. David Jems</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div className="collapse">
                             <input type="checkbox" />
@@ -51,11 +51,11 @@ const Tranning = () => {
                 <div className="card card-compact w-80 bg-base-100 shadow-xl">
                     <div className="avatar justify-center mt-4">
                         <div className="w-40 mask mask-hexagon">
-                            <img src="https://static01.nyt.com/images/2022/12/12/multimedia/00twitter-legal-musk-1-afec/00twitter-legal-musk-1-afec-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt='' />
+                            <img src="https://img.freepik.com/premium-photo/school-teacher-hold-apple-classroom-blackboard_474717-61238.jpg?w=1060" alt='' />
                         </div>
                     </div>
                     <div className="card-body">
-                        <h2 className="card-title">Mr. Elon Mask</h2>
+                        <h2 className="card-title">Mr. Henry Man</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div className="collapse ">
                             <input type="checkbox" />
@@ -71,11 +71,11 @@ const Tranning = () => {
                 <div className="card card-compact w-80 bg-base-60 shadow-2xl">
                     <div className="avatar justify-center mt-4">
                         <div className="w-40 mask mask-hexagon">
-                            <img src="https://static.theceomagazine.net/wp-content/uploads/2019/12/19141714/barack-obama.jpg" alt="" />
+                            <img src="https://img.freepik.com/free-photo/vertical-shot-male-wearing-suit-tie-standing-classroom_181624-14287.jpg?w=360&t=st=1690877736~exp=1690878336~hmac=4be0af2134904984b2c62336b0fa8b94536ff3d9392031263fbaa2bb185bc2af" alt="" />
                         </div>
                     </div>
                     <div className="card-body">
-                        <h2 className="card-title">Mr. Barak Obama</h2>
+                        <h2 className="card-title">Mr. Xiaxong GNJ</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div className="collapse ">
                             <input type="checkbox" />

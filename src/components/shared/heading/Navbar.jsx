@@ -55,7 +55,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href='#contact'  className="btn bg-purple-500 hover:bg-purple-600 text-white">Join Events</a>
+                    <a href='#contact'  className="btn bg-purple-500 hover:bg-purple-600 text-white">Our Events</a>
                 </div>
             </div>
         </>

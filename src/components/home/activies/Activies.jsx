@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Explore = () => {
+const Activies = () => {
     return (
         <section className='flex justify-center'>
             <div className='mt-32 w-4/5'>
@@ -19,4 +19,4 @@ const Explore = () => {
     );
 };
 
-export default Explore;
+export default Activies;
