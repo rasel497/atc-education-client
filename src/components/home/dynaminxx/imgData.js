@@ -6,7 +6,7 @@ const slides = [
     {
         title: "Welcome To",
         description: "Asian Center for Transforming Education",
-        urls: "https://img.freepik.com/free-photo/front-view-female-student-white-shirt-black-jacket-wearing-backpack-holding-files-with-copybooks-blue-wall-college-university-lessons_140725-43393.jpg?w=996&t=st=1690998162~exp=1690998762~hmac=32f77da32a4d187a2277dc611931c7e3c27a0761ea60f715fb16cad325ccee1e",
+        urls: "https://media.istockphoto.com/id/1140409137/vector/trendy-low-poly-triangles-with-navy-bg.jpg?s=612x612&w=0&k=20&c=vunManM5m2lfkcgYpOd_dIF-gCGUEUL4SjLYe-o9Nng=",
     },
     {
         title: "Second Slide",

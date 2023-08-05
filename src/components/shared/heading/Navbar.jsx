@@ -19,7 +19,7 @@ const Navbar = () => {
                             <li tabIndex={0}>
                                 <details>
                                     <summary>Partners</summary>
-                                    <ul className="p-2 bg-purple-900 text-white">
+                                    <ul className="p-2 text-black">
                                         <li><Link to='/school'>School</Link></li>
                                         <li><Link to='/country'>Country</Link></li>
                                         <li><Link to='/organization'>Organization</Link></li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                             <li><Link to='/about'>About</Link></li>
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost normal-case text-xl text-white">ACT EDUCATION</Link>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl text-white">ABC EDUCATION</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white">
@@ -41,7 +41,7 @@ const Navbar = () => {
                         <li tabIndex={0}>
                             <details>
                                 <summary>Partners</summary>
-                                <ul className="p-2 bg-purple-900 text-white">
+                                <ul className="p-2 bg-slate-500 text-white z-10 rounded-sm mt-5">
                                     <li><Link to='/school'>School</Link></li>
                                     <li><Link to='/country'>Country</Link></li>
                                     <li><Link to='/organization'>Organization</Link></li>
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href='#contact'  className="btn bg-purple-500 hover:bg-purple-600 text-white">Our Events</a>
+                    <a href='#contact' className="btn bg-purple-500 hover:bg-purple-600 text-white">Our Events</a>
                 </div>
             </div>
         </>

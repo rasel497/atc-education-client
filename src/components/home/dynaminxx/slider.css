@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 :root {
     --heights: 80vh;
     --widths: 100%;
+
 }
 
 .slider-container {
@@ -27,7 +33,7 @@
 
 .slide-image {
     width: 100%;
-    height: fit-content;
+    height: 100%;
     position: absolute;
     object-fit: cover;
 }
@@ -37,7 +43,6 @@
     width: 100%;
     height: 100%;
     color: white;
-    font-weight: 700;
     font-size: 50px;
     position: absolute;
     text-align: center;
@@ -46,7 +51,7 @@
 }
 
 .slide-text {
-    top: 55%;
+    top: 65%;
     font-size: 2rem;
 }
 
@@ -67,7 +72,7 @@
 
 .slider-container:hover .prev,
 .slider-container:hover .next {
-    color: cyan
+    color: black
 }
 
 .slider-container:hover .prev:hover,
@@ -94,8 +99,8 @@
 
 .dot {
     cursor: pointer;
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     margin: 0px 3px;
     background-color: transparent;
     /* background-color: rgba(0, 0, 0, 0.3); */
