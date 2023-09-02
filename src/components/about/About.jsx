@@ -5,12 +5,11 @@ const About = () => {
     return (
         <>
             <div className='mb-32'>
-                <div className="hero h-96" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1565843248736-8c41e6db117b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80)' }}>
+                <div className="hero h-96" style={{ backgroundImage: 'url(https://i.ibb.co/4Kf1L6X/about.jpg)' }}>
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                         <div className="max-w-md">
                             <h1 className="mb-5 text-5xl font-bold">About Us</h1>
-
                         </div>
                     </div>
                 </div>

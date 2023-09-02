@@ -1,60 +1,25 @@
 import React from 'react';
+import { useState } from 'react';
+import videoData from './videoData.js';
+import VideoTitleList from './VideoTitleList.jsx';
+import VideoPlayerT from './VideoPlayerT.jsx';
 
 const PreviousEvent = () => {
+    const [selectedVideo, setSelectedVideo] = useState(videoData[0]);
+
+    const handleVideoSelect = (video) => {
+        setSelectedVideo(video);
+    };
     return (
         <section className='flex justify-center'>
-            <div className='w-4/5 mt-32 bg-slate-400 p-5 rounded-lg'>
-                <h2 className='text-4xl text-center text-white font-extrabold mb-10'>Our Previous Events</h2>
-                <div className="card grid lg:grid-cols-2 md:grid-cols-1 card-side bg-base-100 shadow-xl">
+            <div className='3/4 mt-12 bg-blue-800 rounded-lg'>
+                <h2 className='text-3xl text-center text-white font-extrabold p-2'>Our Previous Events</h2>
+                <div className="grid gap-8 lg:grid-cols-2 md:grid-cols-1 card-side shadow-xl rounded-md p-12  bg-gray-300">
                     <div>
-                        <figure><img src="https://img.freepik.com/free-photo/business-advisor-giving-his-opinion_1098-671.jpg?w=996&t=st=1690878307~exp=1690878907~hmac=70be232d4a8eab46cda3a5d1e62b576b1ad20ff8963b2c9b9205efcff418e314" alt="Movie" /></figure>
+                        <VideoPlayerT video={selectedVideo} />
                     </div>
-                    <div className="m-4">
-                        <div className="collapse collapse-plus bg-base-200 mb-2">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">
-                                <h1 className='text-lg'>Click to open this one and close others</h1>
-                            </div>
-                            <div className="collapse-content">
-                                <p>Why need proffessional Education trainning?</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-plus bg-base-200 mb-2">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">
-                                <h1 className='text-lg'>Click to open this one and close others</h1>
-                            </div>
-                            <div className="collapse-content">
-                                <p>Why need proffessional Education trainning?</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-plus bg-base-200 mb-2">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">
-                                <h1 className='text-lg'>Click to open this one and close others</h1>
-                            </div>
-                            <div className="collapse-content">
-                                <p>Why need proffessional Education trainning?</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-plus bg-base-200 mb-2">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">
-                                <h1 className='text-lg'>Click to open this one and close others</h1>
-                            </div>
-                            <div className="collapse-content">
-                                <p>Why need proffessional Education trainning?</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-plus bg-base-200 mb-2">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">
-                                <h1 className='text-lg'>Click to open this one and close others</h1>
-                            </div>
-                            <div className="collapse-content">
-                                <p>Why need proffessional Education trainning?</p>
-                            </div>
-                        </div>
+                    <div className="w-full mt-4">
+                        <VideoTitleList videos={videoData} onSelectVideo={handleVideoSelect} />
                     </div>
                 </div>
             </div>
